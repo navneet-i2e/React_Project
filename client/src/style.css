@@ -1,0 +1,180 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.books {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.book {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  width: 250px;
+  transition: transform 0.2s;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.book:hover {
+  transform: translateY(-5px);
+}
+
+.book-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.book img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.book h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.book p {
+  font-size: 1rem;
+  color: #777;
+  margin-bottom: 15px;
+  flex-grow: 1;
+}
+
+.book span {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.button-wrapper {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: auto;
+}
+
+.button-wrapper button {
+  padding: 8px 15px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  flex: 1;
+  max-width: 100px;
+}
+
+.button-wrapper button:first-of-type {
+  background-color: rgb(37, 172, 172);
+  color: white;
+}
+
+.button-wrapper button:first-of-type:hover {
+  background-color: teal;
+}
+
+.button-wrapper button:last-of-type {
+  background-color: #dc3545;
+  color: white;
+}
+
+.button-wrapper button:last-of-type:hover {
+  background-color: #a71d2a;
+}
+
+.add-book-btn {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: rgb(37, 172, 172);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.add-book-btn:hover {
+  background-color: teal;
+}
+
+.add-book-btn .react-router-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.add-book-btn .react-router-link:hover {
+  color: inherit;
+}
+
+.form {
+  width: 100%;
+  max-width: 400px;
+  margin: 40px auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.form button {
+  width: 100%;
+  padding: 10px;
+  font-size: 1.2rem;
+  background-color: rgb(37, 172, 172);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form button:hover {
+  background-color: teal;
+}
