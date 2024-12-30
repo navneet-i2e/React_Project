@@ -8,7 +8,6 @@ const Update = () => {
     title: "",
     desc: "",
     price: "",
-    coverUrl: "",
   });
   const navigate = useNavigate();
 

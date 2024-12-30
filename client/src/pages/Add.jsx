@@ -7,7 +7,6 @@ const Add = () => {
     title: "",
     desc: "",
     price: "",
-    coverUrl: "",
   });
   const navigate = useNavigate();
 
